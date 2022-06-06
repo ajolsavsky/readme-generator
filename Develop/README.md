@@ -1,11 +1,10 @@
-# New readme
+# Looooook
 
   ## License Badge
-  [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+  [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
 
   ## Description
-  loookie
-  undefined
+  New desc
   
   ## Table of Contents
   - [Installation](#installation)
@@ -14,21 +13,21 @@
   - [License](#license)
   
   ## Installation
-  kajsd;lf
+  Install m
   
   ## Usage
-  jdff
+  a
   
   ## License
-  Boost Software License 1.0
+  Read more about Do What The Fuck You Want To Public License here:[Do What The Fuck You Want To Public License](http://www.wtfpl.net/about/)
   
   ## Contributing
-  None
+  Go ahead
   
   ## Tests
-  Test this
+  test it
   
   ## Questions
-  GitHub: [View my profile](https://github.com/ajolsavsky)
-  Email: alexandraolsavsky@gmail.com
+  GitHub: [View my profile](https://github.com/NOne)
+  Email: asdfa
   

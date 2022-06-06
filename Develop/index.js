@@ -5,11 +5,6 @@ const { table } = require('console');
 const markdown = require('./generateMarkdown');
 const generateMarkdown = require('./generateMarkdown');
 
-//TODO: Badges and license if-then
-//TODO: Create usage video
-
-
-
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -72,10 +67,6 @@ inquirer
 
 // // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}
-
-// fs.writeFile('README.md', data, (err) =>
-//     err ? console.error(err) : console.log('Success!')
-// );
 
 // // TODO: Create a function to initialize app
 // function init() {}
