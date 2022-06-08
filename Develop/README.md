@@ -1,10 +1,7 @@
-# Title
-
-  ## License Badge
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# README Generator
 
   ## Description
-  Here's a description
+  This app uses node.js and the require package to generate a readme based on user input in terminal/bash.
   
   ## Table of Contents
   - [Installation](#installation)
@@ -13,21 +10,12 @@
   - [License](#license)
   
   ## Installation
-  Install instructions
-  
-  ## Usage
-  None
-  
-  ## License
-  Read more about GNU General Public License v3.0 here: [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0)
-  
-  ## Contributing
-  none
-  
-  ## Tests
-  none
-  
-  ## Questions
+This app requires node.js and the require package in order to run. Otherwise, this should be a fairly straightforward install.
+
+## Usage
+Here is a walkthrough of the app.
+
+  ## Questions?
   - GitHub: [View my profile](https://github.com/ajolsavsky)
-  - Email: n/a
+  - Email: alexandraolsavsky@gmail.com
   
