@@ -6,7 +6,7 @@ function renderLicenseBadge(license) {
   if (license===licenseArr[0]) {
     return "[![License: AFL-3.0](https://img.shields.io/badge/License-AFL--3.0-lightgrey.svg)](https://opensource.org/licenses/AFL-3.0)"
   } else if (license===licenseArr[1]){
-    return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)]"
+    return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
   } else if (license===licenseArr[2]){
     return "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)"
   } else if (license===licenseArr[3]){
@@ -202,8 +202,8 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## License Badge
   ${renderLicenseBadge(data.license)}
+  ![badge](https://img.shields.io/github/last-commit/${data.gitHub}/${data.repo})
 
   ## Description
   ${data.description}
@@ -230,8 +230,8 @@ function generateMarkdown(data) {
   ${data.tests}
   
   ## Questions
-  GitHub: [View my profile](https://github.com/${data.gitHub})
-  Email: ${data.email}
+  - GitHub: [View my profile](https://github.com/${data.gitHub})
+  - Email: ${data.email}
   `;
 }
 

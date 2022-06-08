@@ -1,10 +1,10 @@
-# Looooook
+# Title
 
   ## License Badge
-  [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
   ## Description
-  New desc
+  Here's a description
   
   ## Table of Contents
   - [Installation](#installation)
@@ -13,21 +13,21 @@
   - [License](#license)
   
   ## Installation
-  Install m
+  Install instructions
   
   ## Usage
-  a
+  None
   
   ## License
-  Read more about Do What The Fuck You Want To Public License here:[Do What The Fuck You Want To Public License](http://www.wtfpl.net/about/)
+  Read more about GNU General Public License v3.0 here: [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0)
   
   ## Contributing
-  Go ahead
+  none
   
   ## Tests
-  test it
+  none
   
   ## Questions
-  GitHub: [View my profile](https://github.com/NOne)
-  Email: asdfa
+  - GitHub: [View my profile](https://github.com/ajolsavsky)
+  - Email: n/a
   

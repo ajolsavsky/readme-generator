@@ -2,8 +2,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { table } = require('console');
-const markdown = require('./generateMarkdown');
-const generateMarkdown = require('./generateMarkdown');
+const markdown = require('./assets/generateMarkdown');
+const generateMarkdown = require('./assets/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -53,23 +53,39 @@ const questions = [
         message: 'Enter your email',
         name: 'email',
     },
+    {
+        type: 'input',
+        message: 'Enter the name of your repo',
+        name: 'repo',
+    },
 ];
 
-inquirer
-    .prompt(questions)
-    .then((data) => {
-        const readmeContent = generateMarkdown(data);
+// inquirer
+//     .prompt(questions)
+//     .then((data) => {
+//         const readmeContent = generateMarkdown(data);
 
-        fs.writeFile('README.md', readmeContent, (err) =>
-        err ? console.log(err) : console.log('Successfully created README!')
-    );
-    });
+//         fs.writeFile('./dist/README.md', readmeContent, (err) =>
+//         err ? console.log(err) : console.log('Successfully created README!')
+//     );
+//     });
 
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+    err ? console.log(err) : console.log('Successfully created README!'))
+}
 
-// // TODO: Create a function to initialize app
-// function init() {}
+// TODO: Create a function to initialize app
+function init() {
+    inquirer
+        .prompt(questions)
+        .then((data) => {
+            const readmeContent = generateMarkdown(data);
 
-// // Function call to initialize app
-// init();
+            writeToFile('./dist/README.md', readmeContent)
+        })
+}
+
+// Function call to initialize app
+init();
